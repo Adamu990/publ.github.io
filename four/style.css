@@ -1,0 +1,33 @@
+html{box-sizing: border-box;}
+*, *::before, *::after{box-sizing: inherit;}
+
+.main{margin:0 8%; background-color:  hsl(0, 0%, 98%);}
+div.all{margin: 20px; box-shadow: 0 1.5px 1.5px 1.5px hsl(229, 6%, 66%); background-color: white;padding: 10px;}
+
+img{padding: 20px 20% 20px  80%;}
+body{background-color: #fafafa;}
+.head{font-weight: 600; font-size: 1.5em; color: #4c4e61; padding-left: 40px;}
+div.header> p{color: #a3a5ae; padding-left: 10px;}
+#title{color: #a3a5ae; font-size: 1.5em;  padding-left: 40px;}
+.top{border-top: 3px solid hsl(0, 78%, 62%);}
+.bottom{border-top: 3px solid hsl(34, 97%, 64%) }
+.right{border-top: 3px solid hsl(212, 86%, 64%)}
+.left{border-top: 3px solid hsl(180, 62%, 55%)}
+
+
+
+@media screen and (min-width: 550px){
+
+body{position: relative; width: 850px; height: 660px;}
+.header{top: 10px; width: 370px; left: 260px; height: 200px;padding-top: 50px; line-height: 1.55em;}
+.all{height: 200px; width: 250px; border-radius: 5px;}
+.top{top: 210px; left: 300px;border-top: 3px solid hsl(0, 78%, 62%);}
+.bottom{top: 450px; left: 300px; border-top: 3px solid hsl(34, 97%, 64%) }
+.right{left: 570px; top: 320px; border-top: 3px solid hsl(212, 86%, 64%)}
+.left{left: 30px; top: 320px; border-top: 3px solid hsl(180, 62%, 55%)}
+#title{text-align: center;}
+.main{margin: 0 25%;}
+img{padding-top: 110px;padding-left:  160px;}
+
+div{position: absolute;}
+}
